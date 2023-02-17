@@ -6,9 +6,11 @@ import Footer from "./components/Footer"
 const App = () => {
     return (
         <>
-            <Header/>
-            <Info/>
-            <Footer/>
+            <div className="over-all">
+                <Header/>
+                <Info/>
+                <Footer/>
+            </div>
         </>
     )
 }

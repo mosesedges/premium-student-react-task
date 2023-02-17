@@ -4,10 +4,12 @@ import { FaTwitterSquare,FaFacebookSquare,FaInstagramSquare,FaGithubSquare } fro
 const Footer = () => {
     return (
         <>
-            <a href="#"><FaTwitterSquare /></a>
-            <a href="#"><FaFacebookSquare /></a>
-            <a href="#"><FaInstagramSquare/></a>
-            <a href="#"><FaGithubSquare/></a>
+            <div className="footer-container">
+            <a href="#"><FaTwitterSquare className="social"/></a>
+            <a href="#"><FaFacebookSquare className="social"/></a>
+            <a href="#"><FaInstagramSquare className="social"/></a>
+            <a href="#"><FaGithubSquare className="social"/></a>
+            </div>
         </>
     )
 }

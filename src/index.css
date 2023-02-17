@@ -7,32 +7,30 @@ body{
   width: 550px;
   height: 868px;
   background: #23252C;
+  margin: 0 auto;
+}
+.over-all{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  transform: translate(111px, 68px);
 }
 
 .photo-el{
-  position: absolute;
   width: 317px;
   height: 317px;
-  left: 117px;
-  top: 49px;
-
   background: url(./images/photo.png);
   border-radius: 10px 10px 0px 0px;
 }
 
 .main-el{
-  position: absolute;
-  width: 318px;
+  width: 317px;
   height: fit-content;
-  left: 116px;
-  top: 361px;
   background: #F5F5F5;
 }
 .name-el{
-width: 178.06px;
-height: 25.81px;
-left: 186px;
-top: 381px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -65,23 +63,86 @@ color: #2B283A;
   margin-top: 6.81px;
 }
 
-button{
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 9px 13px 9px 11px;
-  gap: 8px;
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* padding: 9px 13px 9px 11px;
+  margin: 4px 5px 0px 20px;
+   gap: 8px; 
   width: 115px;
   height: 34px;
   border-radius: 6px;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); */
 }
 
-.email-btn{
+.email-btn, .linkedin-btn{
   border: 1px solid #D1D5DB;
   background: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 9px 13px 9px 11px;
+  margin:0 10px;
+  gap: 8px; 
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); 
+} 
+.linkedin-btn{
+  background-color: #297FE5;
+  color: white;
+}
+
+span{
+  height: 15px;
+  width: 15px;
+}
+
+.desc-container{
+  width: 247px;
+  margin: 0 auto;
+}
+
+.desc-container h3 {
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+/* line-height: 24px; */
+/* or 24px */
+color: #2B283A;
+}
+
+.desc-container p {
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+color: #4A4E74;
+margin-top: -10px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  height: 64px;
+  background: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+}
+.footer-container .social{
+color: #918E9B;
+padding: 6px;
+margin: 6px;
+width:28px;
+height: 28px;
 }
