@@ -4,12 +4,10 @@ import React from "react"
 const UserDetails = (props) => {
      return (
         <div>
-            <ul>
-                <li>{props.name}</li>
-                <li>{props.username}</li>
-                <li>{props.email}</li>
-                <li>{props.address}</li>
-            </ul>
+                <h3>Name: {props.name}</h3>
+                <p>UserName: {props.username}</p>
+                <p>Email: {props.email}</p>
+                <address>Address: {props.address}</address>
         </div>
      )
 }
