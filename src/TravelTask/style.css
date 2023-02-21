@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    font-family: inter, san-serif;
+
+}
+
+root {
+    --border: 1px solid black;
+
+}
+
+.container{
+    display:flex;
+    width: 550px;
+    height: 704px;
+    background-color: rgb(237, 189, 17);
+}
+
+.img-el {
+    width: 150px;
+    height: 200px;
+    object-position: bottom left;
+    object-fit: contain;
+}
+.img-el:hover {
+    width: 550px;
+    height: 500px;
+    transition:all 1s ease-in;
+    /* object-position: bottom left;
+    object-fit: contain; */
+}

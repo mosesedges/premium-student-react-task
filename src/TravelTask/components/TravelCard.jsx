@@ -6,16 +6,16 @@ const TravelCard = (props) => {
     return(
         <div className="container">
             <div className="img-container">
-                { <img src={props.imageUrl} alt={props.title} />}
+                { <img src={props.imageUrl} alt={props.title} className="img-el"/>}
             </div>
 
             <div className="info-container">
-                <p>{props.location}</p>
-                <p>{props.googleMapsUrl}</p>
-                <h1>{props.title}</h1>
-                <p>{props.startDate}</p>
-                <p>{props.endDate}</p>
-                <p>{props.description}</p>
+                <p className="location-el">{props.location}</p>
+                <p className="google-el">{props.googleMapsUrl}</p>
+                <h1 className="title-el">{props.title}</h1>
+                <p className="start-el">{props.startDate}</p>
+                <p className="end-el">{props.endDate}</p>
+                <p className="desc-el">{props.description}</p>
             </div>
         </div>
     )
