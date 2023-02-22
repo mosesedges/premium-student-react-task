@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
     font-family: inter, san-serif;
+    
 
 }
 
@@ -10,17 +11,19 @@ root {
 }
 
 .container{
+    
     display:flex;
     width: 550px;
-    height: 704px;
+    height: auto;
     background-color: rgb(237, 189, 17);
 }
 
 .img-el {
-    width: 150px;
-    height: 200px;
-    object-position: bottom left;
-    object-fit: contain;
+    float: left;
+    shape-outside: ellipse(160px 100px);
+    width: 250px;
+    height: 250px;
+    background: pink;
 }
 .img-el:hover {
     width: 550px;
@@ -28,4 +31,11 @@ root {
     transition:all 1s ease-in;
     /* object-position: bottom left;
     object-fit: contain; */
+}
+
+.info-container{
+background-color: greenyellow;
+margin: 10px;
+width:270px ;
+height:auto ;
 }

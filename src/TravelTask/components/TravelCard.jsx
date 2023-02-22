@@ -11,7 +11,7 @@ const TravelCard = (props) => {
 
             <div className="info-container">
                 <p className="location-el">{props.location}</p>
-                <p className="google-el">{props.googleMapsUrl}</p>
+                <a className="google-el" href={props.googleMapsUrl}>view on Google</a>
                 <h1 className="title-el">{props.title}</h1>
                 <p className="start-el">{props.startDate}</p>
                 <p className="end-el">{props.endDate}</p>
