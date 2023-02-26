@@ -20,3 +20,5 @@ function greeting(name) {
 }
 
 console.log(greeting("Bob"))
+
+export default greeting
