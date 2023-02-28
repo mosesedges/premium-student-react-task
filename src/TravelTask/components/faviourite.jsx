@@ -8,15 +8,6 @@ export default function App() {
         email: "itsmyrealname@example.com",
         isFavorite: false
     })
-    /**
-     * Challenge: Use a ternary to determine which star image filename
-     * should be used based on the `contact.isFavorite` property
-     * 
-     * `true` => "star-filled.png"
-     * `false` => "star-empty.png"
-     * 
-     * Then use the starIcon value to display the correct image
-     */
     
     let starIcon = contact.isFavorite? "star-filled.png" : "star-empty.png"
     
