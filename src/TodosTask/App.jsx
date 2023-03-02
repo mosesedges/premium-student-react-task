@@ -1,13 +1,13 @@
 import React from 'react'
 import data from './components/data'
 import Header from './components/Header'
+import SignUpForm from './components/SignUpForm'
 import Todos from './components/Todos'
 
 
 const App = () => {
 
     const [users, setUsers] = React.useState(data)
-
     const [todo, setTodo] = React.useState([
         {
             id:1,
@@ -26,6 +26,7 @@ const App = () => {
             forth: "SING PRAISES",
         }
     ])
+
     const handleClick = (id) =>{
         setTodo(prevTodos => {
             return prevTodos.map(todo => {
@@ -65,6 +66,7 @@ const App = () => {
         <>
         {/* {details} */}
         {TodoList}
+        <SignUpForm/>
         </>
     )
 }
