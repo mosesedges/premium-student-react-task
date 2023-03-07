@@ -30,6 +30,15 @@ body{
   height: fit-content;
   background: #F5F5F5;
 }
+
+.dark-el{
+  background: black;
+  color: white;
+}
+
+.dark-el h1, .dark-el .web-el {
+  color:whitesmoke;
+}
 .name-el{
 font-family: 'Inter';
 font-style: normal;
@@ -145,4 +154,20 @@ padding: 6px;
 margin: 6px;
 width:28px;
 height: 28px;
+}
+
+header p {
+  padding: 3px;
+  background: rgb(15, 15, 15);
+  color: aliceblue;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+  
+}
+
+p.dark{
+  background: #eff1f8;
+  color:black;
+  box-shadow: 3px 3px 3px black, -0.2em  -1px rgb(163, 163, 163);
 }
