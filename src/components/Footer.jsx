@@ -1,10 +1,10 @@
 import React from "react"
 import { FaTwitterSquare,FaFacebookSquare,FaInstagramSquare,FaGithubSquare } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <>
-            <div className="footer-container">
+            <div className={props.darkMode? "dark-footer":"footer-container"}>
             <a href="#"><FaTwitterSquare className="social"/></a>
             <a href="#"><FaFacebookSquare className="social"/></a>
             <a href="#"><FaInstagramSquare className="social"/></a>

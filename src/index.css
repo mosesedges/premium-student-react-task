@@ -32,7 +32,7 @@ body{
 }
 
 .dark-el{
-  background: black;
+  background: rgb(50, 49, 49);
   color: white;
 }
 
@@ -114,6 +114,11 @@ span{
   width: 247px;
   margin: 0 auto;
 }
+.dark-desc{
+  color:white;
+  width: 247px;
+  margin: 0 auto;
+}
 
 .desc-container h3 {
   
@@ -148,6 +153,15 @@ margin-top: -10px;
   background: #D5D4D8;
   border-radius: 0px 0px 10px 10px;
 }
+.dark-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  height: 64px;
+  background: #1d1d1d;
+  border-radius: 0px 0px 10px 10px;
+}
 .footer-container .social{
 color: #918E9B;
 padding: 6px;
@@ -155,6 +169,15 @@ margin: 6px;
 width:28px;
 height: 28px;
 }
+
+.dark-footer .social{
+  color: #ffffff;
+  padding: 6px;
+  margin: 6px;
+  width:28px;
+  height: 28px;
+  }
+  
 
 header p {
   padding: 3px;
@@ -168,6 +191,7 @@ header p {
 
 p.dark{
   background: #eff1f8;
-  color:black;
+  color:rgb(32, 31, 31);
   box-shadow: 3px 3px 3px black, -0.2em  -1px rgb(163, 163, 163);
 }
+
